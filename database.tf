@@ -1,4 +1,4 @@
 ## Minimal
 resource "snowflake_database" "test_database" {
-  name = "ATLANTIS_TEST_DATABASE"
+  name = "ATLANTIS_DATABASE"
 }

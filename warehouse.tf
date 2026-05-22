@@ -11,7 +11,7 @@ resource "snowflake_warehouse" "test_warehouse" {
   initially_suspended                 = false
   comment                             = "An ATLANTIS_TEST_WAREHOUSE."
   enable_query_acceleration           = true
-  max_concurrency_level               = 4
+  max_concurrency_level               = 3
   statement_queued_timeout_in_seconds = 5
   statement_timeout_in_seconds        = 10
 }
